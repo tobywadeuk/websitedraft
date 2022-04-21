@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="script.js"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="assets/logoimg.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
-    <script src="index.js"></script>
+    <script defer src="index.js"></script>
     <title>Hiya, I'm Toby Wade.</title>
 </head>
 
@@ -67,21 +66,28 @@
 
             <div class="icons">
 
-                <div class="icondivs">
-                    <img src="assets/memo.png" class="icon">
-                    <h2 class="iconheading">Blog</h2>
-                    <div class="icontext">Read my latest blog posts</div>
-                </div>
-                <div class="icondivs">
-                    <img src="assets/e-mail.png" class="icon">
-                    <h2 class="iconheading">Newsletter</h2>
-                    <div class="icontext">Subscribe to my newsletter</div>
-                </div>
-                <div class="icondivs">
-                    <img src="assets/hammer_and_wrench.png" class="icon">
-                    <h2 class="iconheading">Projects</h2>
-                    <div class="icontext">Explore my latest projects</div>
-                </div>
+                <a href="blog.html">
+                    <div class="icondivs">
+                        <img src="assets/memo.png" class="icon">
+                        <h2 class="iconheading">Blog</h2>
+                        <div class="icontext">Read my latest blog posts</div>
+                    </div>
+                </a>
+
+                <a href="blog.html">
+                    <div class="icondivs">
+                        <img src="assets/e-mail.png" class="icon">
+                        <h2 class="iconheading">Newsletter</h2>
+                        <div class="icontext">Subscribe to my newsletter</div>
+                    </div>
+                </a>
+                <a href="blog.html">
+                    <div class="icondivs">
+                        <img src="assets/hammer_and_wrench.png" class="icon">
+                        <h2 class="iconheading">Projects</h2>
+                        <div class="icontext">Explore my latest projects</div>
+                    </div>
+                </a>
 
             </div>
 
@@ -135,8 +141,8 @@
             <div class="newsletter">
                 <div class="newstext">
                     <h3 class="newshead"> Subscribe to The Good Life</h3>
-                    <div class="newscopy">Join my growing community. Every week I share advice on living the
-                        good life: from health & wealth to happiness & relationship, directly to your inbox.</div>
+                    <div class="newscopy">Join my growing community. Every week I share knowledge, advice and ideas on living the
+                        good, directly to your inbox.</div>
                 </div>
                 <div class="newsform">
                     <form action="GET"></form>
@@ -147,7 +153,7 @@
                         <input class="formemailinput" type="email" placeholder="Email">
                     </div>
                     <div class="formbutton formelement">
-                        <button class="formbuttoninput">let's go</button>
+                        <button class="formbuttoninput" id="button">let's go</button>
                     </div>
                 </div>
             </div>
